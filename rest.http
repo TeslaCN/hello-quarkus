@@ -1,0 +1,12 @@
+GET http://localhost:8080/order
+###
+
+POST http://localhost:8080/order
+Content-Type: application/json
+
+{
+  "orderTime": 1591432276000,
+  "personName": "POST",
+  "orderType": "nil",
+  "remark": "From Post"
+}
